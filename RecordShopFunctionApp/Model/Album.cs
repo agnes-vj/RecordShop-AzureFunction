@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace RecordShop.Model
+namespace RecordShopFunctionApp.Model
 {
     public class Album
     {

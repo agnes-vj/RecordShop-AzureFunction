@@ -1,6 +1,7 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System;
+using System.ComponentModel.DataAnnotations;
 
-namespace RecordShop.Model
+namespace RecordShopFunctionApp.Model
 {
     public class ReleaseYearValidationAttribute : ValidationAttribute
     {

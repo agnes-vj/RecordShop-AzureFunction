@@ -1,4 +1,5 @@
-﻿namespace RecordShop.Model
+﻿using System;
+namespace RecordShopFunctionApp.Model
 {
     public class RecordShopException : Exception
     {

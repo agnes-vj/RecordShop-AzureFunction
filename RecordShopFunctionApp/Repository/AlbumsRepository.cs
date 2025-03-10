@@ -1,7 +1,10 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using RecordShop.Model;
+using RecordShopFunctionApp.Model;
+using System;
+using System.Linq;
+using System.Collections.Generic;
 
-namespace RecordShop.Repository
+namespace RecordShopFunctionApp.Repository
 {
     public interface IAlbumsRepository
     {

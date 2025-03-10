@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using RecordShop.Model;
+using RecordShopFunctionApp.Model;
 
-namespace RecordShop.Repository
+namespace RecordShopFunctionApp.Repository
 {
     public class RecordShopDbContext : DbContext
     {

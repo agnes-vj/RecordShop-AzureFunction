@@ -3,7 +3,7 @@ using Newtonsoft.Json.Converters;
 using System.ComponentModel.DataAnnotations;
 using System.Text.Json.Serialization;
 
-namespace RecordShop.Model
+namespace RecordShopFunctionApp.Model
 {
     public class AlbumDTO
     {
@@ -14,7 +14,7 @@ namespace RecordShop.Model
         public string ArtistName { get; set; }
         
        
-        public  String MusicGenre { get; set; }
+        public  string MusicGenre { get; set; }
         [ReleaseYearValidation(ErrorMessage = "Release year should not be greater than current year")]
         public int ReleaseYear { get; set; }
         [Required(ErrorMessage = " Stock Value Required")]

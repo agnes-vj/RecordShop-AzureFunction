@@ -1,7 +1,8 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Collections.Generic;
 
-namespace RecordShop.Model
+namespace RecordShopFunctionApp.Model
 {
     public class Artist
     {

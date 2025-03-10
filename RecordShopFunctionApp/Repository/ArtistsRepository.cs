@@ -1,6 +1,9 @@
-﻿using RecordShop.Model;
+﻿using RecordShopFunctionApp.Model;
+using System;
+using System.Collections.Generic;
+using System.Linq;
 
-namespace RecordShop.Repository
+namespace RecordShopFunctionApp.Repository
 {
     public interface IArtistsRepository
     {

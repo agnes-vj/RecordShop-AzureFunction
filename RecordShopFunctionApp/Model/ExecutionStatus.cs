@@ -1,4 +1,4 @@
-﻿namespace RecordShop.Model
+﻿namespace RecordShopFunctionApp.Model
 {
     public enum ExecutionStatus
     {
